@@ -1,0 +1,115 @@
+/* COLLECTIONS */
+header{
+font-family: Raleway;
+font-style: semi-bold;
+font-weight: 800;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+letter-spacing: 0.31em;
+text-align: center;
+
+color: #477B2E;
+}
+
+
+
+
+/* COLOR VARIABLES
+----------------------------------------------- */
+:root {
+  --dark: #000000;
+  --light: #FFFFFF;
+}
+
+
+
+
+/* BASE STYLES
+----------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light); 
+  color: var(--dark);
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+
+.doggo {
+  width: 554px;
+  height: 696px;
+  left: 103px;
+}
+
+
+.lovebirds {
+
+  width: 586px;
+  height: 730px;
+}
+
+.house{
+  width:696px;
+  height:493px;
+}
+
+.shack{
+  width: 595px;
+  height: 740px;
+}
+
+
+/* TYPOGRAPHY
+----------------------------------------------- */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  font-variant: small-caps;
+  font-size: 28px;
+  font-style: semi-bold;
+  font-weight:600px;
+  text-align: center;
+}
+
+
+
+
+/* NAVIGATION
+----------------------------------------------- */
+header {
+   border-right: 1px solid var(--dark);
+}
+
+nav{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.31em;
+  
+  color: #477B2E;
+}
+
+
+
+
+
+/* MAIN
+----------------------------------------------- */
+main {
+  background-color: #FDFFF9;
+}
+
